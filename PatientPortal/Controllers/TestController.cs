@@ -2,12 +2,11 @@
 
 namespace PatientPortal.Controllers
 {
-    public class HomeController : Controller
+    public class TestController : Controller
     {
         public IActionResult Index()
         {
             return View();
-            //test
         }
     }
 }
